@@ -39,7 +39,11 @@ iframe#tela {
     height: 471px;
 }
 section#redes-sociais {
-    text-align: right;
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
 }
 section#redes-sociais img{
     width: 50px;
